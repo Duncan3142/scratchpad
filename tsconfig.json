@@ -13,5 +13,6 @@
 		"noUnusedParameters": true,
 		"strict": true,
 		"baseUrl": "."
-	}
+	},
+	"include": ["pad.ts", "pad.spec.ts"]
 }
