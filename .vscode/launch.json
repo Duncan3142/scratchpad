@@ -6,9 +6,16 @@
 					"type": "node",
 					"request": "launch",
 					"port": 9229,
-					"runtimeArgs": ["--inspect-brk", "${workspaceRoot}/node_modules/.bin/jest", "--runInBand", "--coverage", "false"],
+					"runtimeArgs": ["--inspect-brk", "${workspaceRoot}/node_modules/.bin/jest", "--runInBand", "--coverage", "false", "-t", "${input:test}"],
 					"console": "integratedTerminal",
 					"internalConsoleOptions": "neverOpen"
 			}
+	],
+	"inputs": [
+		{
+			"id": "test",
+			"description": "test name",
+			"type": "promptString"
+		}
 	]
 }

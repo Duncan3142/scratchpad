@@ -2,9 +2,9 @@
 	"compilerOptions": {
 		"outDir": "dist",
 		"module": "CommonJS",
-		"target": "ES2018",
+		"target": "ES2017",
 		"moduleResolution": "Node",
-		"lib": ["ES2018"],
+		"lib": ["ES2017"],
 		"allowUnreachableCode": false,
 		"allowUnusedLabels": false,
 		"noFallthroughCasesInSwitch": true,
