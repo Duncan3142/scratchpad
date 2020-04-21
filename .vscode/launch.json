@@ -14,7 +14,7 @@
 	"inputs": [
 		{
 			"id": "test",
-			"description": "test name",
+			"description": "Test Name",
 			"type": "promptString"
 		}
 	]
