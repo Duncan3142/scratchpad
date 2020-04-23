@@ -12,6 +12,7 @@
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"strict": true,
+		"sourceMap": true,
 		"baseUrl": "."
 	},
 	"include": ["pad.ts", "pad.spec.ts"]
