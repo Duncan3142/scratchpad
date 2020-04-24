@@ -15,5 +15,5 @@
 		"sourceMap": true,
 		"baseUrl": "."
 	},
-	"include": ["pad.ts", "pad.spec.ts"]
+	"include": ["*.ts"]
 }
