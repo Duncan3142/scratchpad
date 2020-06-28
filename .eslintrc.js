@@ -26,5 +26,5 @@ module.exports = {
     project: './tsconfig.json',
   },
   plugins: ['prettier'],
-  rules: {},
+  rules: {'no-console': ["error", { allow: ["warn", "error", "log"] }]},
 };

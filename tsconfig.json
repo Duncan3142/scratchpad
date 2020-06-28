@@ -15,5 +15,5 @@
 		"sourceMap": true,
 		"baseUrl": "."
 	},
-	"include": ["*.ts"]
+	"include": ["*.ts", "jest.config.js"]
 }
